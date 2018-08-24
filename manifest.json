@@ -1,0 +1,21 @@
+{
+    "name": "TV News Recommender",
+    "version": "1.0",
+    "description": "Recommend TV news based on news articles",
+    "permissions": ["http://maxreinisch-newsrecommender.crawl.archivelab.org/recommend/","tabs", "activeTab","declarativeContent", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "options_page": "options.html",
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "32": "images/icon.png"
+      }
+    },
+    "icons": {
+      "32": "images/icon.png"
+    },
+    "manifest_version": 2
+  }
