@@ -1,12 +1,13 @@
 .wrapper {
   display:grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .wrapper > div{
-  padding:2px;
-  margin:2px;
-  border: 2px solid #eee;
+  padding:5px;
+  margin:10px;
+  border-radius: 25px;
+  border: 2px solid white;
   align-items: center;
 }
 
@@ -79,6 +80,7 @@ h2{
   border-radius: 25px;
   border: 2px solid #eee;
   padding: 20px;
+  background-color: #eee
 }
 p{
     font-family:Gill Sans Light;

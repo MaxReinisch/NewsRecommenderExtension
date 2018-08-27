@@ -1,2 +1,3 @@
-# Chrome Extension for TVNewsRecommender
-Note that currently it only works for huffington post articles
+# News Recommender:
+## A google chrome extension for diversifying News sources.  
+by Max Reinisch
