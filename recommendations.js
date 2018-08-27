@@ -11,7 +11,7 @@ function constructArticles(clips){
     anchor.appendChild(img);
     div.appendChild(anchor);
     let show = document.createElement('p');
-    show.appendChild(document.createTextNode(clip.show));
+    show.appendChild(document.createTextNode(clip.station + ": "+ clip.show));
     div.appendChild(show);
     tray.appendChild(div);
   }

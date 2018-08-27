@@ -1,6 +1,6 @@
 {
     "name": "TV News Recommender",
-    "version": "1.0",
+    "version": "1.01",
     "description": "Recommend TV news based on news articles",
     "permissions": ["http://maxreinisch-newsrecommender.crawl.archivelab.org/recommend/","tabs", "activeTab","declarativeContent", "storage"],
     "background": {

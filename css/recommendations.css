@@ -1,0 +1,9 @@
+.wrapper {
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.wrapper > div{
+  padding:1em;
+  margin:1em;
+}
