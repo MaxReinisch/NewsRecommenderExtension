@@ -1,6 +1,12 @@
 let tray = document.getElementById('RecommendationTray');
 
 function constructArticles(clips){
+  if(clips.length == 0){
+    let p = document.createElement('p');
+    p.appendChild(document.createTextNode("No Related Clips Found..."));
+    tray.append(p);
+    return -1;
+  }
   for (let entry of clips){
     let clip = entry['TV Clip'];
     let div = document.createElement('div');
